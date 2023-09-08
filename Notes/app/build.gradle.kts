@@ -59,7 +59,7 @@ android {
 dependencies {
 
     implementation("androidx.core:core-ktx:1.10.1")
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
     implementation("androidx.activity:activity-compose:1.7.2")
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
     implementation("androidx.compose.ui:ui")
@@ -79,13 +79,14 @@ dependencies {
 // Additional dependencies
     //noinspection GradleCompatible
     implementation("androidx.legacy:legacy-support-v4:1.0.0")
-    val lifecycle_version = "2.6.1"
+    val lifecycle_version = "2.6.2"
     val room_version = "2.6.0-beta01"
     implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
 
 
     // RecyclerView Animator
     implementation("jp.wasabeef:recyclerview-animators:3.0.0")
+
 
     // ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
@@ -96,19 +97,20 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
 
     // Annotation processor
-    implementation("androidx.lifecycle:lifecycle-common-java8:2.6.1")
+    implementation("androidx.lifecycle:lifecycle-common-java8:2.6.2")
 
     //Room
     implementation("androidx.room:room-runtime:$room_version")
+    //noinspection KaptUsageInsteadOfKsp
     kapt("androidx.room:room-compiler:$room_version")
 
     //Kotlin Extensions and Coroutines support for Room
     implementation("androidx.room:room-ktx:$room_version")
 
     // Coroutines
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.4")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.1")
 
     // Navigation Components
     implementation("androidx.fragment:fragment-ktx:1.7.0-alpha04")
