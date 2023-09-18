@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "304455652233",
+    "project_id": "denotes-2a63d",
+    "storage_bucket": "denotes-2a63d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304455652233:android:52c3e4e0a2c97c8dd54758",
+        "android_client_info": {
+          "package_name": "com.example.denotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqUKREUwVb81yDwb6hXbizvWpRXUSgYaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
